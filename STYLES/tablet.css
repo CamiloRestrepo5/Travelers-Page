@@ -1,0 +1,157 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&family=Roboto:wght@100&display=swap');
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+h1 {
+    text-align: center;
+    margin: 20px;
+    font-size: 50px
+}
+
+ul {
+    padding: 30px;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
+.portugal-title {
+    text-align: center;
+    padding: 30px 0 15px 0;
+}
+
+.first-container {
+    display: flex;
+    flex-direction: column;
+    border-radius: 20px;
+    background: linear-gradient(180deg, rgb(255, 0, 0), rgb(0, 111, 0));
+}
+
+.caja-portugal {
+    border-radius: 7px;
+    padding: 16px;
+}
+
+.images {
+    filter: none;
+    border-radius: 30px;
+    padding: 20px;
+}
+
+.france-title {
+    padding: 50px 0 15px 0;
+    text-align: center;
+}
+
+.second-container {
+    display: flex;
+    flex-direction: column;
+    border-radius: 20px;
+    background: linear-gradient(360deg, rgb(255, 0, 0), rgb(255, 255, 255), rgb(0, 0, 255));
+}
+
+.caja-france {
+    border-radius: 7px;
+    padding: 32px 16px 16px 16px;
+    margin-bottom: 6px;
+}
+
+.spain-title {
+    padding: 50px 0 15px 0;
+    text-align: center;
+}
+
+.third-container {
+    display: flex;
+    flex-direction: column;
+    border-radius: 20px;
+    background: linear-gradient(360deg, rgb(255, 0, 0), rgb(253, 255, 4), rgb(255, 0, 0));
+}
+
+.caja-spain {
+    border-radius: 7px;
+    padding: 32px 16px 16px 16px;
+    margin-bottom: 6px;
+}
+
+h3 {
+    padding: 0 0 10px 0;
+}
+
+.section-description {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.section-div-description-por {
+    padding: 70px 15px 0 15px;
+    text-align: center;
+
+}
+
+.section-div-description-fra {
+    padding: 70px 15px 0 15px;
+    text-align: center;
+}
+
+.section-div-description-spa {
+    padding: 70px 15px 0 15px;
+    text-align: center;
+}
+
+.paragraph-description {
+    text-align: justify;
+    line-height: 24px;
+    font-weight: 500;
+}
+
+h4 {
+    text-align: center;
+    font-size: 70px;
+    padding: 40px;
+    text-decoration: underline;
+}
+
+.section-lisboa,
+.section-paris,
+.section-madrid {
+    display: flex;
+    text-align: justify;
+    align-items: center;
+
+}
+
+.section-img-lisboa,
+.section-img-paris,
+.section-img-madrid {
+    margin: 10px;
+    width: 50%;
+    border-radius: 20px;
+}
+
+.paragraph-lisboa,
+.paragraph-paris,
+.paragraph-madrid {
+    margin: 30px;
+    padding: 40px 20px;
+    border-radius: 20px;
+    background-color: black;
+    color: white;
+
+}
+
+.section-paris,
+.section-madrid {
+    padding: 50px 0 0 0;
+}
+
+.section-img-madrid:hover {
+    filter: none;
+}

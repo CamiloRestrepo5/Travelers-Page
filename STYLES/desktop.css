@@ -1,0 +1,240 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&family=Roboto:wght@100&display=swap');
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: bisque;
+    font-family: "Poppins", serif;
+}
+
+.header {
+    display: flex;
+    padding: 0 0 70px 0;
+    align-items: center;
+    text-align: center;
+    justify-content: space-between;
+}
+
+h1 {
+    display: flex;
+    text-align: center;
+    padding: auto;
+    font-size: 60px;
+}
+
+.nav-list {
+    background-color: transparent;
+}
+
+.menu{
+    display: flex;
+    padding: 0 10px 0 0;
+    list-style-type: none;
+}
+
+li {
+    padding: 7px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.portugal-title {
+    padding: 30px 0 0 0;
+}
+
+.first-container {
+    display: flex;
+    flex-direction: row;
+    margin: 8px;
+    border-radius: 20px;
+    background: linear-gradient(180deg, rgb(255, 0, 0), rgb(0, 111, 0));
+
+}
+
+.caja-portugal {
+    margin: 0;
+    width: 100%;
+}
+
+.images {
+    border-radius: 20px;
+    width: 33%;
+    padding: 6px;
+}
+
+
+.france-title {
+    padding: 50px 0 0 0;
+}
+
+.second-container {
+    display: flex;
+    flex-direction: row;
+    margin: 8px;
+    background: linear-gradient(360deg, rgb(255, 0, 0), rgb(255, 255, 255), rgb(0, 0, 255));
+}
+
+.caja-france {
+    border-radius: 7px;
+    padding: 16px;
+    width: 100%;
+}
+
+.spain-title {
+    padding: 50px 0 0 0;
+}
+
+.third-container {
+    display: flex;
+    flex-direction: row;
+    margin: 8px;
+    background: linear-gradient(360deg, rgb(255, 0, 0), rgb(253, 255, 4), rgb(255, 0, 0));
+   
+}
+
+.caja-spain {
+    border-radius: 7px;
+    padding: 16px;
+    width: 100%;
+}
+
+h3 {
+    font-size: 40px;
+}
+
+.section-description {
+    display: flex;
+    flex-direction: row;
+
+}
+
+.section-div-description-por {
+    width: 33%;
+    padding: 70px 0 0 0;
+    text-align: center;
+
+}
+
+.section-div-description-fra {
+    width: 33%;
+    padding: 70px 0 0 0;
+    text-align: center;
+    
+}
+
+.section-div-description-spa {
+    width: 33%;
+    padding: 70px 0 0 0;
+    text-align: center;
+    
+}
+
+.paragraph-description {
+    text-align: justify;
+    padding: 10px 30px;
+    line-height: 24px;
+    font-weight: 500;
+}
+
+h4 {
+    text-align: center;
+    font-size: 70px;
+    padding: 40px;
+}
+
+.section-lisboa {
+    display: flex;
+    padding: 50px 0 0 0;
+    text-align: justify;
+    align-items: center;
+    
+}
+
+.section-img-lisboa {
+    margin: 20px;
+    width: 50%;
+    filter: blur(4px);
+    border-radius: 20px;
+}
+
+.section-img-lisboa:hover {
+    filter: none;
+}
+
+.paragraph-lisboa {
+    margin: 5px;
+    padding:10px 40px;
+    border-radius: 20px;
+    background-color: black;
+    color: white;
+    
+}
+
+.section-paris {
+    display: flex;
+    padding: 50px 0 0 0;
+    text-align: justify;
+    align-items: center;
+    
+}
+
+.section-img-paris {
+    margin: 20px;
+    width: 50%;
+    filter: blur(4px);
+    border-radius: 20px;
+}
+
+.section-img-paris:hover {
+    filter: none;
+}
+
+.paragraph-paris {
+    margin: 5px;
+    padding:10px 40px;
+    border-radius: 20px;
+    background-color: black;
+    color: white;
+    
+}
+
+.section-madrid {
+    display: flex;
+    padding: 50px 0 0 0;
+    text-align: justify;
+    align-items: center;
+    
+}
+
+.section-img-madrid {
+    margin: 20px;
+    width: 50%;
+    filter: blur(4px);
+    border-radius: 20px;
+}
+
+.section-img-madrid:hover {
+    filter: none;
+}
+
+.paragraph-madrid {
+    margin: 5px;
+    padding:10px 40px;
+    border-radius: 20px;
+    background-color: black;
+    color: white;
+    
+}
+
