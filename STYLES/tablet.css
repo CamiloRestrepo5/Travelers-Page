@@ -128,10 +128,14 @@ h4 {
 
 }
 
+.section-paris,
+.section-madrid {
+    padding: 50px 0 0 0;
+}
 .section-img-lisboa,
 .section-img-paris,
 .section-img-madrid {
-    margin: 10px;
+    margin: 5px;
     width: 50%;
     border-radius: 20px;
 }
@@ -147,11 +151,3 @@ h4 {
 
 }
 
-.section-paris,
-.section-madrid {
-    padding: 50px 0 0 0;
-}
-
-.section-img-madrid:hover {
-    filter: none;
-}

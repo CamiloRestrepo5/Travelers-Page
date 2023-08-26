@@ -16,7 +16,7 @@ h1 {
     text-align: center;
 }
 
-ul{
+ul {
     padding: 30px;
 }
 
@@ -30,62 +30,49 @@ a {
     text-align: center;
 }
 
-.first-container {
+.first-container,
+.second-container,
+.third-container {
     display: flex;
     flex-direction: column;
     border-radius: 20px;
     background: linear-gradient(180deg, rgb(255, 0, 0), rgb(0, 111, 0));
 }
 
-.caja-portugal {
-    border-radius: 7px;
-    padding: 32px 16px 16px 16px;
-    margin-bottom: 6px;
-}
-
-.france-title {
-    padding-top: 30px;
-    padding-bottom: 15px;
-    text-align: center;
-    
-}
-
-.second-container {
-    display: flex;
-    flex-direction: column;
-    border-radius: 20px;
-    background: linear-gradient(360deg, rgb(255, 0, 0), rgb(255, 255, 255), rgb(0, 0, 255));
-}
-
-.caja-france {
-    border-radius: 7px;
-    padding: 32px 16px 16px 16px;
-    margin-bottom: 6px;
-}
-
-.spain-title {
-    padding:30px 0 15px 0;
-    text-align: center;
-}
-
-.third-container {
-    display: flex;
-    flex-direction: column;
-    border-radius: 20px;
-    background: linear-gradient(360deg, rgb(255, 0, 0), rgb(253, 255, 4), rgb(255, 0, 0));
-}
-
+.caja-portugal,
+.caja-france,
 .caja-spain {
     border-radius: 7px;
     padding: 32px 16px 16px 16px;
     margin-bottom: 6px;
 }
 
+.france-title,
+.spain-title {
+    padding-top: 30px;
+    padding-bottom: 15px;
+    text-align: center;
+}
+
+.second-container {
+    background: linear-gradient(360deg, rgb(255, 0, 0), rgb(255, 255, 255), rgb(0, 0, 255));
+}
+
+.third-container {
+    background: linear-gradient(360deg, rgb(255, 0, 0), rgb(253, 255, 4), rgb(255, 0, 0));
+}
+
 .images {
     filter: none;
-    border-radius: 0.5rem;
+    border-radius: 20px;
     width: 100%;
     height: 100%;
+    padding: 10px;
+}
+
+h3 {
+    font-size: 30px;
+    padding: 0 0 10px 0;
 }
 
 .section-description {
@@ -93,6 +80,7 @@ a {
     flex-direction: column;
     padding: 70px 0 0 0;
     text-align: center;
+    margin: 15px;
 }
 
 .section-div-description-por {
@@ -100,11 +88,7 @@ a {
     font-size: large;
 }
 
-.section-div-description-fra {
-    padding: 0 0 50px 0;
-    font-size: large;
-}
-
+.section-div-description-fra,
 .section-div-description-spa {
     padding: 0 0 50px 0;
     font-size: large;
@@ -112,7 +96,7 @@ a {
 
 .paragraph-description {
     text-align: justify;
-    line-height: 2rem;
+    line-height: 32px;
     font-weight: 500;
 }
 
@@ -124,9 +108,25 @@ h4 {
 
 .section-parent {
     display: flex;
-    flex-direction: row;
-    padding: 50px 0 0 0;
+    flex-direction: column;
     text-align: justify;
     align-items: center;
-    
+}
+
+.section-img-paris,
+.section-img-lisboa,
+.section-img-madrid {
+    width: 100%;
+    padding: 20px;
+    border-radius: 30px;
+}
+
+.paragraph-lisboa,
+.paragraph-paris,
+.paragraph-madrid {
+    margin: 20px;
+    padding: 20px;
+    text-align: justify;
+    background-color: black;
+    color: white;
 }
