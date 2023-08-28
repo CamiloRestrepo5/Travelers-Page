@@ -12,11 +12,11 @@ h1 {
     font-size: 50px
 }
 
-ul {
+.menu {
     padding: 30px;
 }
 
-a {
+.a-nav-header {
     color: black;
     text-decoration: none;
 }
@@ -136,8 +136,9 @@ h4 {
 .section-img-paris,
 .section-img-madrid {
     margin: 5px;
+    height: 40vw;
     width: 50%;
-    border-radius: 20px;
+    border-radius: 30px;
 }
 
 .paragraph-lisboa,
@@ -151,3 +152,6 @@ h4 {
 
 }
 
+.paragraph-lisboa {
+    padding: 20px
+}
