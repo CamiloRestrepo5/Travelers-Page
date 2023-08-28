@@ -7,13 +7,14 @@
 }
 
 body {
-    background-color: bisque;
+    background-color: #000000;
     font-family: "Poppins", serif;
 }
 
 h1 {
     font-size: 50px;
     text-align: center;
+    color:#fff;
 }
 
 .menu {
@@ -21,13 +22,14 @@ h1 {
 }
 
 .a-nav-header {
-    color: black;
+    color:#fff;
     text-decoration: none;
 }
 
 .portugal-title {
     padding-bottom: 15px;
     text-align: center;
+    color:#fff;
 }
 
 .first-container,
@@ -52,6 +54,7 @@ h1 {
     padding-top: 30px;
     padding-bottom: 15px;
     text-align: center;
+    color:#fff;
 }
 
 .second-container {
@@ -66,13 +69,13 @@ h1 {
     filter: none;
     border-radius: 20px;
     width: 100%;
-    height: 100%;
     padding: 10px;
 }
 
 h3 {
     font-size: 30px;
     padding: 0 0 10px 0;
+    color: #fff;
 }
 
 .section-description {
@@ -98,12 +101,13 @@ h3 {
     text-align: justify;
     line-height: 32px;
     font-weight: 500;
+    color: #fff;
 }
 
 h4 {
     text-align: center;
     font-size: 70px;
-    padding: 40px;
+    color: #fff;
 }
 
 .section-parent {
@@ -127,6 +131,30 @@ h4 {
     margin: 20px;
     padding: 20px;
     text-align: justify;
-    background-color: black;
-    color: white;
+    background-color: #000;
+    color: #fff;
+}
+
+footer {
+    display: flex;
+    margin-top: 100px;
+    background-color: #212120;
+    
+}
+
+.ul-footer {
+    display: block;
+    padding: 20px;
+}
+
+.li-footer {
+    list-style-type: none;
+    margin: 20px;
+}
+
+.title-a-footer {
+    color: #e3d7d7;
+    text-decoration: none;
+    padding: 10px;
+
 }
